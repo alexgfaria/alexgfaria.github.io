@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f0a660a-d1a9-4408-8117-e5c2050be088" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bower_components/appear/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/appear/jquery.appear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/appear/min/jquery.appear-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bower_components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/countto/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/countto/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/browserstack.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation-float.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation-float.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation-prototype.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation-prototype.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/css/foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.abide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.abide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.accordionMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.accordionMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.drilldown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.dropdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.dropdownMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.equalizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.equalizer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.interchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.interchange.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.magellan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.magellan.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.orbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.orbit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.responsiveMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.reveal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.smoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.smoothScroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.tabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.toggler.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.box.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.imageLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.imageLoader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.motion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.motion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.nest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.nest.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.timer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.timerAndImageLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.timerAndImageLoader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.touch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.triggers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.zf.responsiveAccordionTabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/dist/js/plugins/foundation.zf.responsiveAccordionTabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/foundation-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.abide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.accordionMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.dropdownMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.responsiveToggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.smoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.toggler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.imageLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.mediaQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.motion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.nest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/entries/plugins/foundation.util.triggers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.abide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.accordionMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.dropdownMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.equalizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.interchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.magellan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.orbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.positionable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.responsiveAccordionTabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.responsiveMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.responsiveToggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.smoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.sticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.toggler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.imageLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.mediaQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.motion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.nest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/js/foundation.util.triggers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/foundation-sites/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/Gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/dist/lte-IE8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/dist/what-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/dist/what-input.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/docs/scripts/what-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/src/polyfills/ie8/EventListener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/src/polyfills/ie8/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/what-input/src/what-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/emmotivity.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontello/fontello.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontello/fontello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontello/fontello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontello/fontello.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea-arrows/linea-arrows-10.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea-arrows/linea-arrows-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea-arrows/linea-arrows-10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea-arrows/linea-arrows-10.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea/linea-basic-10.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea/linea-basic-10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea/linea-basic-10.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/linea/linea-basic-10.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/about-19.optimized..faststart.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/blog-8.optimized..faststart.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/case-study.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/case-study.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/circle-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/circle-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/circle-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/client-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/client-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/client-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/client-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/client-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/client-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/client-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/contact-3.optimized..faststart.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/dashed.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/footer-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/iphones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/member-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/member-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/member-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/member-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/member-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/plus.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/result-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/result-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/result-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/result-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/result-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/service-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/service-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/service-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/service-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/triangle-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/wave-2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/wave.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/work-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/@stock/works-2.optimized..faststart.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.appear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.sequence-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/fontello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/honryou.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/linea-arrows-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/linea-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/slick.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1557">
+              <caret line="389" column="19" selection-start-line="389" selection-start-column="19" selection-end-line="389" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/manifesto-thegame.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="140" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="943" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="manifesto-thegame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manifesto-thegame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manifesto-thegame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manifesto-thegame" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="manifesto-thegame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manifesto-thegame" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="FirefoxRemoteDebugType">
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" url="http://localhost:63342/manifesto-thegame/index.html" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f0a660a-d1a9-4408-8117-e5c2050be088" name="Default Changelist" comment="" />
+      <created>1561382548307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561382548307</updated>
+      <workItem from="1561382552727" duration="628000" />
+      <workItem from="1561383867920" duration="153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="781000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="140" y="43" width="1400" height="943" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1557">
+          <caret line="389" column="19" selection-start-line="389" selection-start-column="19" selection-end-line="389" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
