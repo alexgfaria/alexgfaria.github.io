@@ -1,0 +1,131 @@
+$bg: #111111
+$co: #0000FF
+$vm: 10vmin
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	font-family: 'Roboto', sans-serif
+	font-size: $vm/2.5
+	color: scale-color($co, $lightness: 20%)
+	//color: $co * .9
+	user-select: none
+
+body, .slots, .rings, .combs, .results, .ring, .slot, .spin
+	display: flex
+	justify-content: center
+	align-items: center
+	transform-style: preserve-3d
+	
+body, .combs, .results
+	flex-direction: column
+
+body
+	justify-content: space-around
+	width: 100%
+	height: 100vh
+	background: $bg
+
+.slots
+	position: relative
+	width: $vm * 12
+	height: $vm * 5
+
+	> *
+		height: 100%
+
+.combs, .results
+	width: 20%
+	justify-content: space-between
+
+	> *
+		font-size: $vm/2.8
+		color: scale-color($co, $lightness: 100%)
+		//color: $co * .5
+
+.rings
+	width: 100%
+	perspective: $vm * 25
+
+.ring
+	position: relative
+	width: calc(100% / 4)
+	height: 100%
+	transition: 3s ease-in-out
+	
+.slot
+	position: absolute
+	width: 100%
+	height: 45%
+	font-size: $vm*0.3
+	background: rgba($bg, .935)
+	
+	@for $i from 1 through 8
+		&:nth-child(#{$i})
+			transform: rotateX(45deg * $i) translateZ($vm * 2.7)
+
+.lines
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%) translateZ($vm*5)
+	width: 50%
+	height: 95%
+	background-image: linear-gradient(transparent 49.75%, rgba($co, .15) 49.75%, rgba($co, .15) 50.25%, transparent 50.25%), linear-gradient(to bottom left, transparent 49.75%, rgba($co, .15) 49.75%, rgba($co, .15) 50.25%, transparent 50.25%), linear-gradient(to bottom right, transparent 49.75%, rgba($co, .15) 49.75%, rgba($co, .15) 50.25%, transparent 50.25%)
+
+.title
+	width: $vm*12
+	position: relative
+	margin-bottom: $vm*1.5
+	margin-left: 0.5px
+
+	span
+		display: block
+		position: absolute
+		left: 48.5%
+		transform-origin: 40% 400%
+		font-size: $vm/1.5
+		color: scale-color($co, $lightness: 100%)
+		//color: $co * .5
+		
+		@for $i from 1 through 7
+			&:nth-child(#{$i})
+				transform: rotate(-36deg + (9deg * $i))
+		
+.spin
+	width: $vm*1.4
+	height: $vm*1.4
+	//transform: rotateX(45deg)
+	border: $vm/30 solid
+		radius: 80%
+	font-size: $vm/2.2
+	color: scale-color($co, $lightness: 100%)
+	//color: $co * .75
+	background: transparent
+	outline: none
+	cursor: pointer
+	transition: .3s
+
+	&:hover
+		color: scale-color($co, $lightness: 50%)
+		//color: $co * .9
+
+	&:active
+		color: scale-color($co, $lightness: 50%)
+		//color: $co * 1.2
+
+.result
+	transform: scale(0)
+	opacity: 1
+	animation: scale-on .375s ease-in-out forwards
+
+	@for $i from 1 through 3
+		&:nth-child(#{$i})
+			animation-delay: .1s * $i
+
+@keyframes scale-on
+	50%
+		transform: scale(1.5)
+	100%
+		transform: scale(1)
