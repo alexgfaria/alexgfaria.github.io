@@ -10,6 +10,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/slotmachine.css">
@@ -19,94 +20,127 @@
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  <!-- Add your site or application content here -->
-
-
-  <div>MANIFESTO! the game
-  </div>
-  <div class="slots">
-    <!--<div class="combs">
-      <div class="comb">.</div>
-      <div class="comb">.</div>
-      <div class="comb">.</div>
-    </div>-->
-    <div class="rings">
-      <div class="ring">
-        <div class="slot" id="0">PRINCIPLES</div>
-        <div class="slot" id="1">CHALLENGE</div>
-        <div class="slot" id="2">RULES</div>
-        <div class="slot" id="3">DIAGRAM</div>
-        <div class="slot" id="4">A/B LIST</div>
-        <div class="slot" id="5">ALGORITHM</div>
-        <div class="slot" id="6">VISION</div>
-        <div class="slot" id="7">DECLARATION</div>
-        <div class="slot" id="8">STATEMENT</div>
-        <div class="slot" id="9">RANT</div>
-      </div>
-      <div class="ring">
-        <div class="slot" id="0">PLAYFUL</div>
-        <div class="slot" id="1">RADICAL</div>
-        <div class="slot" id="2">ANGRY</div>
-        <div class="slot" id="3">RIGHTEOUS</div>
-        <div class="slot" id="4">FUNNY</div>
-        <div class="slot" id="5">EXCITED</div>
-        <div class="slot" id="6">OUTRAGED</div>
-        <div class="slot" id="7">HOPEFUL</div>
-        <div class="slot" id="8">MEASURED</div>
-        <div class="slot" id="9">URGENT</div>
-      </div>
-      <div class="ring">
-        <div class="slot" id="0">WE MUST</div>
-        <div class="slot" id="1">WE ARE</div>
-        <div class="slot" id="2">LET US</div>
-        <div class="slot" id="3">WE DECLARE</div>
-        <div class="slot" id="4">IN THE FUTURE</div>
-        <div class="slot" id="5">UNTIL NOW</div>
-        <div class="slot" id="6">IMAGINE</div>
-        <div class="slot" id="7">IN THE PAST</div>
-        <div class="slot" id="8">WE BELIEVE</div>
-        <div class="slot" id="9">COME, COMRADES</div>
-      </div>
-      <div class="ring">
-        <div class="slot" id="0">ABOLISH INSTITUTIONAL HEGEMONY</div>
-        <div class="slot" id="1">GARBAGE IN, GARBAGE OUT</div>
-        <div class="slot" id="2">ASK WHY</div>
-        <div class="slot" id="3">BETTER FOR WHOM?</div>
-        <div class="slot" id="4">FEMINIST EVERYTHING</div>
-        <div class="slot" id="5">CLIMATE CHANGE CHANGES EVERYTHING</div>
-        <div class="slot" id="6">RESEARCHERS ARE NOT BYSTANDERS</div>
-        <div class="slot" id="7">QUEER YOUR TECH</div>
-        <div class="slot" id="8">DESIGN TOOLS AND INTERACTIONS PEOPLE NEED</div>
-        <div class="slot" id="9">CULTIVATE GENEROSITY, HOSPITALITY AND TRUST</div>
-        <div class="slot" id="10">ABANDON THE MYTH OF UNIVERSALISM</div>
-        <div class="slot" id="11">CHALLENGE INEQUALITY</div>
-        <div class="slot" id="12">TAKE INDUSTRY TO TASK</div>
-        <div class="slot" id="13">INCREASE ACCESS</div>
-        <div class="slot" id="14">THERE IS NOT AN APP FOR THAT</div>
-        <div class="slot" id="15">DIVERSIFY AI</div>
-        <div class="slot" id="16">FIGHT FASCISM FULL-TIME</div>
-        <div class="slot" id="17">F*** PAYWALLS, OPEN RESEARCH!</div>
-        <div class="slot" id="18">WE ARE IN THIS TOGETHER</div>
-        <div class="slot" id="19">WILD</div>
-        <div class="slot" id="20">DON'T COLONISE THE FUTURE</div>
-        <div class="slot" id="21">ARM ENDANGERED SPECIES</div>
-        <div class="slot" id="22">NEEDS BEFORE DESIRES</div>
+  <div class="container-fluid">
+    <div class="row">
+      <!--titulo-->
+      <div class="col-md-12" style="text-align: left;">MANIFESTO! the game
       </div>
     </div>
-   <!-- <div class="results">
-      <div class="result"></div>
-      <div class="result"></div>
-      <div class="result"></div>
-    </div>-->
+    <div class="row" style="text-align: center;">
+      <!--nomes das categorias-->
+      <div class="col-md-3" style="font-size: 21px;">Provocation
+      </div>
+      <div class="col-md-3" style="font-size: 21px;">Tone
+      </div>
+      <div class="col-md-3" style="font-size: 21px;">Orientation
+      </div>
+      <div class="col-md-3" style="font-size: 21px;">BLA
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <!--slot machine-->
+          <div class="slots">
+              <!--<div class="combs">
+                <div class="comb">.</div>
+                <div class="comb">.</div>
+                <div class="comb">.</div>
+              </div>-->
+              <div class="rings">
+                <div class="ring">
+                  <div class="slot" id="0">PRINCIPLES</div>
+                  <div class="slot" id="1">CHALLENGE</div>
+                  <div class="slot" id="2">RULES</div>
+                  <div class="slot" id="3">DIAGRAM</div>
+                  <div class="slot" id="4">A/B LIST</div>
+                  <div class="slot" id="5">ALGORITHM</div>
+                  <div class="slot" id="6">VISION</div>
+                  <div class="slot" id="7">DECLARATION</div>
+                  <div class="slot" id="8">STATEMENT</div>
+                  <div class="slot" id="9">RANT</div>
+                </div>
+                <div class="ring">
+                  <div class="slot" id="0">PLAYFUL</div>
+                  <div class="slot" id="1">RADICAL</div>
+                  <div class="slot" id="2">ANGRY</div>
+                  <div class="slot" id="3">RIGHTEOUS</div>
+                  <div class="slot" id="4">FUNNY</div>
+                  <div class="slot" id="5">EXCITED</div>
+                  <div class="slot" id="6">OUTRAGED</div>
+                  <div class="slot" id="7">HOPEFUL</div>
+                  <div class="slot" id="8">MEASURED</div>
+                  <div class="slot" id="9">URGENT</div>
+                </div>
+                <div class="ring">
+                  <div class="slot" id="0">WE MUST</div>
+                  <div class="slot" id="1">WE ARE</div>
+                  <div class="slot" id="2">LET US</div>
+                  <div class="slot" id="3">WE DECLARE</div>
+                  <div class="slot" id="4">IN THE FUTURE</div>
+                  <div class="slot" id="5">UNTIL NOW</div>
+                  <div class="slot" id="6">IMAGINE</div>
+                  <div class="slot" id="7">IN THE PAST</div>
+                  <div class="slot" id="8">WE BELIEVE</div>
+                  <div class="slot" id="9">COME, COMRADES</div>
+                </div>
+                <div class="ring">
+                  <div class="slot" id="0" style="justify-content: left">ABOLISH INSTITUTIONAL HEGEMONY</div>
+                  <div class="slot" id="1" style="justify-content: left">GARBAGE IN, GARBAGE OUT</div>
+                  <div class="slot" id="2" style="justify-content: left">ASK WHY</div>
+                  <div class="slot" id="3" style="justify-content: left">BETTER FOR WHOM?</div>
+                  <div class="slot" id="4" style="justify-content: left">FEMINIST EVERYTHING</div>
+                  <div class="slot" id="5" style="justify-content: left">CLIMATE CHANGE CHANGES EVERYTHING</div>
+                  <div class="slot" id="6" style="justify-content: left">RESEARCHERS ARE NOT BYSTANDERS</div>
+                  <div class="slot" id="7" style="justify-content: left">QUEER YOUR TECH</div>
+                  <div class="slot" id="8" style="justify-content: left">DESIGN TOOLS AND INTERACTIONS PEOPLE NEED</div>
+                  <div class="slot" id="9" style="justify-content: left">CULTIVATE GENEROSITY, HOSPITALITY AND TRUST</div>
+                 <!-- <div class="slot" id="10">ABANDON THE MYTH OF UNIVERSALISM</div>
+                  <div class="slot" id="11">CHALLENGE INEQUALITY</div>
+                  <div class="slot" id="12">TAKE INDUSTRY TO TASK</div>
+                  <div class="slot" id="13">INCREASE ACCESS</div>
+                  <div class="slot" id="14">THERE IS NOT AN APP FOR THAT</div>
+                  <div class="slot" id="15">DIVERSIFY AI</div>
+                  <div class="slot" id="16">FIGHT FASCISM FULL-TIME</div>
+                  <div class="slot" id="17">F*** PAYWALLS, OPEN RESEARCH!</div>
+                  <div class="slot" id="18">WE ARE IN THIS TOGETHER</div>
+                  <div class="slot" id="19">WILD</div>
+                  <div class="slot" id="20">DON'T COLONISE THE FUTURE</div>
+                  <div class="slot" id="21">ARM ENDANGERED SPECIES</div>
+                  <div class="slot" id="22">NEEDS BEFORE DESIRES</div>-->
+                </div>
+              </div>
+             <!-- <div class="results">
+                <div class="result"></div>
+                <div class="result"></div>
+                <div class="result"></div>
+              </div>-->
+            </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <!--botão para acionar slot machine-->
+          <button class="spin">Pull the lever</button>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3" style="font-size: 8px">
+        <!--footer-->
+        Made at ITI
+      </div>
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
   </div>
-  <button class="spin">Pull the lever</button>
 
 
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>

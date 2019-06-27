@@ -1,6 +1,7 @@
 const rings = document.querySelectorAll('.ring'),
     spin  = document.querySelector('.spin'),
-    degs  = [0, 45, 90, 135, 180, 225, 270, 315, 360]
+	degs  = [0, 45, 90, 135, 180, 225, 270, 315, 360]
+	//degs  = [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360]
 
 window.onload = () => {
     rings.forEach((el, i) => {
@@ -31,7 +32,7 @@ function rotate() {
             deg  = obj.deg,
             curr = obj.curr,
             arr  = obj.arr,
-            res  = deg - degs[rnd(0, degs.length)] * rnd(1, 30)
+            res  = deg - degs[rnd(0, degs.length)] * rnd(1, 50)
 
         el.style.transform = `rotateX(${res}deg)`
         obj.deg = res
