@@ -15,7 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /*
@@ -265,3 +265,204 @@ textarea {
   }
 }
 
+
+#footer * {
+  font-size: 16px;
+}
+
+
+.container_slots{
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+.slot_title{
+  font-weight: bold;
+  font-family: 'Menlo Regular';
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.page_title{
+  text-align: left;
+  font-family: 'Gobold Bold Italic';
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+@font-face {
+  font-family: 'Menlo Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Menlo Regular'), url('./fonts/menlo/Menlo-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gobold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Regular'), url('./fonts/gobold/Gobold Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Italic'), url('./fonts/gobold/Gobold Regular Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Bold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Bold Regular'), url('./fonts/gobold/Gobold Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold CUTS Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold CUTS Regular'), url('./fonts/gobold/Gobold CUTS.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Extra1 Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Extra1 Regular'), url('./fonts/gobold/Gobold Extra1.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Extra2 Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Extra2 Regular'), url('./fonts/gobold/Gobold Extra2.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold High Bold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold High Bold Regular'), url('./fonts/gobold/Gobold High Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold High Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold High Regular'), url('./fonts/gobold/Gobold High.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold High Thin Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold High Thin Regular'), url('./fonts/gobold/Gobold High Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Hollow Bold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Hollow Bold Regular'), url('./fonts/gobold/Gobold Hollow Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Hollow Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Hollow Regular'), url('./fonts/gobold/Gobold Hollow.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Thin Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Thin Light Regular'), url('./fonts/gobold/Gobold Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Lowplus Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Lowplus Regular'), url('./fonts/gobold/Gobold Lowplus.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Thin Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Thin Regular'), url('./fonts/gobold/Gobold Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Uplow Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Uplow Regular'), url('./fonts/gobold/Gobold Uplow.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Bold Italic'), url('./fonts/gobold/Gobold Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold CUTS Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold CUTS Italic'), url('./fonts/gobold/Gobold CUTS Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Extra1 Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Extra1 Italic'), url('./fonts/gobold/Gobold Extra1 Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Extra2 Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Extra2 Italic'), url('./fonts/gobold/Gobold Extra2 Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold High Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold High Bold Italic'), url('./fonts/gobold/Gobold High Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold High Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold High Italic'), url('./fonts/gobold/Gobold High Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold High Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold High Thin Italic'), url('./fonts/gobold/Gobold High Thin Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Hollow Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Hollow Bold Italic'), url('./fonts/gobold/Gobold Hollow Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Hollow Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Hollow Italic'), url('./fonts/gobold/Gobold Hollow Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Thin Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Thin Light Italic'), url('./fonts/gobold/Gobold Light Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Lowplus Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Lowplus Italic'), url('./fonts/gobold/Gobold Lowplus Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Thin Italic'), url('./fonts/gobold/Gobold Thin Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gobold Uplow Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gobold Uplow Italic'), url('./fonts/gobold/Gobold Uplow Italic.woff') format('woff');
+}

@@ -1,10 +1,9 @@
-$bg: #ffffff
-$co: #0000FF
+$bg: #1924fb
+//$co: #00FF7F
+$co: #ffffff
 $vm: 10vmin
 
 *
-	margin-left: 5px
-	margin-right: 5px
 	box-sizing: border-box
 	font-family: 'Roboto', sans-serif
 	font-size: $vm/2.5
@@ -12,10 +11,15 @@ $vm: 10vmin
 	//color: $co * .9
 	user-select: none
 
-body, .slots, .rings, .combs, .results, .ring, .slot, .spin
+body, .rings, .combs, .results, .ring, .slot, .spin
 	display: flex
 	justify-content: center
 	align-items: center
+	transform-style: preserve-3d
+
+.slots
+	justify-content: center
+	align-content: center
 	transform-style: preserve-3d
 	
 	
@@ -24,8 +28,6 @@ body, .combs, .results
 
 body
 	justify-content: space-around
-	width: 100%
-	height: 100vh
 	background: $bg
 
 .slots
@@ -78,30 +80,31 @@ body
 .title
 	width: $vm*12
 	position: absolute
-	margin-bottom: $vm*1.5
-	margin-left: 0.5px
+	padding-bottom: $vm*1.5
+	padding-left: 0.5px
 		
 		
 .spin
-	width: $vm*3.4
-	height: $vm*1.4
+	width: $vm*2.5
+	height: $vm
 	//transform: rotateX(45deg)
-	border: $vm/30 solid
+	border: 0.5px solid
 		radius: 80%
-	font-size: $vm/2.2
+	font-size: $vm/5
 	color: scale-color($co, $lightness: 0%)
 	//color: $co * .75
 	background: transparent
 	outline: none
 	cursor: pointer
 	transition: .3s
+	font-family: 'Menlo Regular'
 
 	&:hover
 		color: scale-color($co, $lightness: 50%)
 		//color: $co * .9
 
-	&:active
-		color: scale-color($co, $lightness: 50%)
+	//&:active
+		//color: scale-color($co, $lightness: 50%)
 		//color: $co * 1.2
 
 .result
