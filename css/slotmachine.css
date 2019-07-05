@@ -8,7 +8,6 @@
 
 body, .rings, .combs, .results, .ring, .slot, .spin {
   display: flex;
-  justify-content: center;
   align-items: center;
   transform-style: preserve-3d;
 }
@@ -37,18 +36,16 @@ body {
   height: 100%;
 }
 
-.combs, .results {
-  width: 20%;
-  justify-content: space-between;
-}
-.combs > *, .results > * {
-  font-size: 3.5714285714vmin;
-  color: white;
-}
-
+/*.combs, .results
+ * width: 20%
+ * justify-content: space-between
+ *
+ * > *
+ * font-size: $vm/2.8
+ * color: scale-color($co, $lightness: 100%)
+ * //color: $co * .5 */
 .rings {
   width: 100%;
-  perspective: 250vmin;
 }
 
 .ring {
@@ -135,23 +132,19 @@ body {
   transform: rotateX(1035deg) translateZ(27vmin);
 }
 
-.lines {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) translateZ(50vmin);
-  width: 50%;
-  height: 95%;
-  background-image: linear-gradient(transparent 49.75%, rgba(255, 255, 255, 0.15) 49.75%, rgba(255, 255, 255, 0.15) 50.25%, transparent 50.25%), linear-gradient(to bottom left, transparent 49.75%, rgba(255, 255, 255, 0.15) 49.75%, rgba(255, 255, 255, 0.15) 50.25%, transparent 50.25%), linear-gradient(to bottom right, transparent 49.75%, rgba(255, 255, 255, 0.15) 49.75%, rgba(255, 255, 255, 0.15) 50.25%, transparent 50.25%);
-}
-
-.title {
-  width: 120vmin;
-  position: absolute;
-  padding-bottom: 15vmin;
-  padding-left: 0.5px;
-}
-
+/*.lines
+ * position: absolute
+ * top: 50%
+ * left: 50%
+ * transform: translate(-50%, -50%) translateZ($vm*5)
+ * width: 50%
+ * height: 95%
+ * background-image: linear-gradient(transparent 49.75%, rgba($co, .15) 49.75%, rgba($co, .15) 50.25%, transparent 50.25%), linear-gradient(to bottom left, transparent 49.75%, rgba($co, .15) 49.75%, rgba($co, .15) 50.25%, transparent 50.25%), linear-gradient(to bottom right, transparent 49.75%, rgba($co, .15) 49.75%, rgba($co, .15) 50.25%, transparent 50.25%) */
+/*.title
+ * width: $vm*12
+ * position: absolute
+ * padding-bottom: $vm*1.5
+ * padding-left: 0.5px */
 .spin {
   width: 25vmin;
   height: 10vmin;
@@ -164,17 +157,20 @@ body {
   cursor: pointer;
   transition: 0.3s;
   font-family: "Menlo Regular";
+  justify-content: center;
+  align-content: center;
+  /*&:active
+  * color: scale-color($co, $lightness: 50%)
+  * color: $co * 1.2 */
 }
 .spin:hover {
-  color: white;
+  color: #00FF7F;
 }
 
-.result {
-  transform: scale(0);
-  opacity: 1;
-  animation: scale-on 0.375s ease-in-out forwards;
-}
-
+/*.result
+ * //transform: scale(0)
+ * //opacity: 1
+ * //animation: scale-on .375s ease-in-out forwards */
 @keyframes scale-on {
   50% {
     transform: scale(1.5);

@@ -16,6 +16,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   overflow: visible;
+  overflow-x: hidden;
 }
 
 /*
@@ -266,9 +267,6 @@ textarea {
 }
 
 
-#footer * {
-  font-size: 16px;
-}
 
 
 .container_slots{
@@ -282,6 +280,26 @@ textarea {
   font-size: 20px;
   text-align: center;
   justify-content: center;
+}
+
+.espaco_branco{
+  margin-top: 20px;
+}
+
+.titulo_footer{
+  font-family: 'Menlo Regular';
+  font-size: 20px;
+}
+
+.made_footer{
+  font-family: 'Menlo Regular';
+  font-size: 13px;
+  color: aliceblue;
+}
+
+.email_footer{
+  font-family: 'Menlo Regular';
+  font-size: 10px;
 }
 
 .page_title{
