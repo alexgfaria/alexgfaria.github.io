@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+  });
+
+
 const rings = document.querySelectorAll('.ring'),
     spin  = document.querySelector('.spin'),
 	degs  = [0, 45, 90, 135, 180, 225, 270, 315, 360]
@@ -64,7 +70,7 @@ function rotate() {
     }, 2825)
 }
 
-function update() {
+/*function update() {
     const results = document.querySelector('.results')
 
     results.innerHTML = ''
@@ -72,8 +78,23 @@ function update() {
         `<div class="result">${ring0.next} ${ring1.curr} ${ring2.prev}</div>
 		 	 <div class="result">${ring0.curr} ${ring1.curr} ${ring2.curr}</div>
 			 <div class="result">${ring0.prev} ${ring1.curr} ${ring2.next}</div>`)
-}
+}*/
 
 function rnd(min, max) {
     return Math.floor(Math.random() * (max - min)) + min
 }
+
+
+function play(){
+    var audio = document.getElementById("audio");
+    audio.playbackRate = 1.8;
+    audio.play();
+}
+
+
+
+const button = document.querySelector('button');
+
+button.addEventListener('click', _ => {
+  document.getElementById('sidebar').classList.toggle('collapsed');
+})

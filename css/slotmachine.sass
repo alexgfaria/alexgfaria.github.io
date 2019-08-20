@@ -1,28 +1,49 @@
-$bg: #1924fb
+//$bg: #1924fb
+$bg: #ffffff
 //$co: #00FF7F
-$co: #ffffff
+$co: #1924fb
 $vm: 10vmin
+$orientation_bg: #fb00ff
+$orientation_font: #fffb00
+$tone_bg: #00ff7f
+$tone_font: #0064ff
+$provocation_bg: #ffffff
+$provocation_font: #0064ff
+$opening_bg: #0064ff
+$opening_font: #ffffff
 
 *
 	box-sizing: border-box
 	font-family: 'Roboto', sans-serif
 	font-size: $vm/2.5
-	color: scale-color($co, $lightness: 20%)
+	//color: scale-color($co, $lightness: 20%)
 	//color: $co * .9
 	user-select: none
 
-body, .rings, .combs, .results, .ring, .slot, .spin
+body, .rings, .combs, .results, .ring, .slot, .slot_provocation, .slot_opening, .slot_tone, .slot_orientation, .spin
 	display: flex
 	//justify-content: center
 	align-items: center
 	transform-style: preserve-3d
+	
 
 .slots
 	justify-content: center
 	align-content: center
 	transform-style: preserve-3d
 	//padding-bottom: 100px
-	
+
+.ring_bg_opening
+	background: $opening_bg
+
+.ring_bg_orientation
+	background: $orientation_bg
+
+.ring_bg_tone
+	background: $tone_bg
+
+.ring_bg_provocation
+	background: $provocation_bg
 	
 body, .combs, .results
 	flex-direction: column
@@ -33,7 +54,7 @@ body
 
 .slots
 	position: relative
-	width: $vm * 12
+	width: $vm * 14.3
 	height: $vm * 5
 
 	> *
@@ -58,13 +79,45 @@ body
 	width: calc(100% / 4)
 	height: 100%
 	transition: 3s ease-in-out
+	text-align: center !important
+
+
+.slot_provocation
+	color: $provocation_font
+	font-family: 'Lexend Deca', sans-serif
+	text-align: center
+	justify-content: center
+
+.slot_opening
+	color: $opening_font
+	font-family: 'Lexend Deca', sans-serif
+	text-align: center
+	justify-content: center
 	
-.slot
+
+.slot_tone
+	color: $tone_font
+	font-family: 'Lexend Deca', sans-serif
+	text-align: center
+	justify-content: center
+	
+
+.slot_orientation
+	color: $orientation_font
+	font-family: 'Lexend Deca', sans-serif
+	text-align: center
+	justify-content: center
+
+
+
+
+	
+.slot, .slot_provocation, .slot_opening, .slot_tone, .slot_orientation
 	position: absolute
 	width: 100%
 	height: 45%
 	font-size: $vm*0.3
-	background: rgba($bg, .935)
+	background: rgba($bg, 0) //coloca fundo por detrás de cada peça
 	
 	@for $i from 1 through 23 //quantidade de slots
 		&:nth-child(#{$i})
@@ -86,30 +139,30 @@ body
 	padding-left: 0.5px
 		
 		
-.spin
-	width: $vm*2.5
-	height: $vm
+//.spin
+	//width: $vm*2.5
+	//height: $vm
 	//transform: rotateX(45deg)
-	border: 0.5px solid
-		radius: 80%
-	font-size: $vm/5
-	color: scale-color($co, $lightness: 20%)
+	//border: 0.5px solid
+		//radius: 80%
+	//font-size: $vm/5
+	//color: scale-color($co, $lightness: 20%)
 	//color: $co * .75
-	background: transparent
-	outline: none
-	cursor: pointer
-	transition: .3s
-	font-family: 'Menlo Regular'
-	justify-content: center
-	align-content: center
+	//background: transparent
+	//outline: none
+	//cursor: pointer
+	//transition: .3s
+	//font-family: 'Menlo Regular'
+	//justify-content: center
+	//align-content: center
 
-	&:hover
-		color: #00FF7F
+	//&:hover
+		//color: #00FF7F
 		//color: $co * .9
 
-	/*&:active
-		color: scale-color($co, $lightness: 50%)
-		color: $co * 1.2
+	//&:active
+		//color: scale-color($co, $lightness: 50%)
+		//color: $co * 1.2
 
 /*.result
 	//transform: scale(0)
