@@ -14,9 +14,11 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/slotmachine.css">
+  <script src="https://kit.fontawesome.com/e850c5b33a.js"></script>
   <!-- Compiled and minified CSS -->
 
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Karla:400,700|Roboto:300,400,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Karla:400,700|Roboto:300,400,700,900&display=swap"
+    rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
   <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
   <!-- drawer.css -->
@@ -24,10 +26,54 @@
 </head>
 
 <body>
+    <i class="fas fa-bars" onmouseover="openNav()" style="position: absolute; left: 30px; top: 30px; opacity: 0.2;"></i>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Rules</a>
+        <a href="#">Deck</a>
+        <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large
+            modal</button>-->
+        <a href="#">Timer</a>
+        <a href="https://www.wordsinfreedomproject.org/wp-content/uploads/2019/05/MANIFESTOgamesheet.pdf" target="_blank">Gamesheet</a>
+      </div>
+    
+      
+      
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+      
+
+
   <div class="container">
     <div class="row">
       <!--titulo-->
       <div class="col-md-12">
+          
+        <!-- Large modal -->
+        
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis, massa ac rutrum tincidunt, ligula
+              quam venenatis mauris, a ultrices leo purus quis tortor. Suspendisse aliquam turpis sed mattis ornare.
+              Donec maximus mollis dolor vel dignissim. Aliquam at leo ligula. In mattis, eros eu mattis auctor, dui
+              lectus congue mauris, et dictum purus magna ac augue. Quisque et mauris sit amet libero gravida interdum
+              non et odio. Phasellus rutrum eros vel magna euismod, nec aliquam purus maximus. Phasellus faucibus ligula
+              non massa sagittis, vel aliquam tortor aliquet. Phasellus sed libero eu risus ultrices hendrerit sed et
+              justo. Curabitur gravida vehicula turpis et aliquam.
+
+              Quisque aliquam scelerisque ante, eu imperdiet turpis lobortis eget. Curabitur at ultrices enim, ut
+              vehicula urna. Ut rutrum, massa eu blandit consectetur, lectus diam vestibulum enim, vitae ornare tellus
+              diam ut eros. Aenean nec augue ut tortor tincidunt volutpat. Donec sit amet nisl nec ligula pretium
+              hendrerit. Phasellus vestibulum pulvinar quam at luctus. In viverra turpis ipsum, nec malesuada massa
+              euismod quis. In eu tortor ipsum.
+            </div>
+          </div>
+        </div>
         <h1 class="page_title">MANIFESTO! <span
             style="font-family:Arial, Helvetica, sans-serif; font-size: 25px; letter-spacing: 1px;"> the game</span>
         </h1>
@@ -196,8 +242,7 @@
             <a class="email_footer" href="mailto:team@wordsinfreedomproject.org">team@wordsinfreedomproject.org</a>
           </div>
           <div class="col-md-3 d-flex flex-column">
-            <a class="info_footer" href="https://www.instagram.com/wordsinfreedomproject/"
-              target="_blank">Instagram</a>
+            <a class="info_footer" href="https://www.instagram.com/wordsinfreedomproject/" target="_blank">Instagram</a>
             <a class="info_footer" href="https://twitter.com/words_project" target="_blank">Twitter</a>
             <a class="info_footer" href="https://www.wordsinfreedomproject.org/architecture-home/about-us/"
               target="_blank">About us</a>
@@ -209,6 +254,7 @@
             <img class="imagens_footer" src="./img/LOGO_LARSyS (2).png">
           </div>
         </div>
+      </div>
       </div>
 
 

@@ -18,6 +18,7 @@ html {
   overflow: visible;
   overflow-x: hidden;
   font-family: 'Lexend Deca', sans-serif;
+  min-width: 1440px;
 
 }
 
@@ -285,40 +286,69 @@ textarea {
   padding-top: 40px;
   padding-bottom: 40px;
   justify-content: space-around;
-  -webkit-box-shadow: -6px 23px 60px -28px rgba(251,0,255,1);
--moz-box-shadow: -6px 23px 60px -28px rgba(251,0,255,1);
-box-shadow: -6px 23px 60px -28px rgba(251,0,255,1);
+  position: relative;
+  
+}
+
+.container_slots_orientation:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-box-shadow: -6px 23px 60px -28px rgba(251, 0, 255, 1);
+  -moz-box-shadow: -6px 23px 60px -28px rgba(251, 0, 255, 1);
+  box-shadow: -6px 23px 60px -28px rgba(251, 0, 255, 1);
 }
 
 .container_slots_tone {
   padding-top: 40px;
   padding-bottom: 40px;
   justify-content: space-around;
-  z-index: 200;
-  -webkit-box-shadow: -6px 23px 60px -28px rgba(0,255,128,1);
--moz-box-shadow: -6px 23px 60px -28px rgba(0,255,128,1);
-box-shadow: -6px 23px 60px -28px rgba(0,255,128,1);
+  position: relative;
+  
+}
 
+.container_slots_tone:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-box-shadow: -6px 23px 60px -28px rgba(0, 255, 128, 1);
+  -moz-box-shadow: -6px 23px 60px -28px rgba(0, 255, 128, 1);
+  box-shadow: -6px 23px 60px -28px rgba(0, 255, 128, 1);
 }
 
 .container_slots_opening {
   padding-top: 40px;
   padding-bottom: 40px;
   height: 110%;
-  z-index: -100;
   justify-content: space-around;
-  -webkit-box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
--moz-box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
-box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
+  position: relative;
+}
 
+.container_slots_opening:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-box-shadow: -17px 26px 58px -28px rgba(0, 102, 255, 1);
+  -moz-box-shadow: -17px 26px 58px -28px rgba(0, 102, 255, 1);
+  box-shadow: -17px 26px 58px -28px rgba(0, 102, 255, 1);
 }
 
 .container_slots_provocation {
   padding-top: 40px;
   padding-bottom: 40px;
   justify-content: space-around;
-  
-
 }
 
 .slot_title {
@@ -339,6 +369,7 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
 .titulo_footer {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
+  margin
 }
 
 .made_footer {
@@ -367,10 +398,11 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
   margin-left: auto;
   margin-right: 0px;
   width: 260px;
+  margin-top: 10px;
 }
 
 
-.footer_bottom_border_holder{
+.footer_bottom_border_holder {
   position: relative;
   display: block;
   width: 100vw !important;
@@ -380,8 +412,8 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
 }
 
 
-.lever_button{
-  outline : none;
+.lever_button {
+  outline: none;
   color: #fff;
   text-decoration: none;
   background-color: #000;
@@ -389,7 +421,7 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
   border-radius: 0px;
   font-weight: 800;
   font-size: 20px;
-  outline: none;
+
   font-family: sans-serif;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -397,7 +429,9 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
   display: inline-block;
 }
 
-.lever_button:focus {outline:0;}
+.lever_button:focus {
+  outline: 0;
+}
 
 
 #wrapper {
@@ -411,9 +445,9 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
 
 
 
-.footer{
+.footer {
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .page_title {
@@ -424,9 +458,9 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
   color: #0064ff;
   margin-top: 50px;
   background-image: -webkit-linear-gradient(355deg, #0064ff, #00ff7f, #fb00ff);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 100s infinite linear;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 100s infinite linear;
 }
 
 
@@ -435,6 +469,7 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
   from {
     -webkit-filter: hue-rotate(0deg);
   }
+
   to {
     -webkit-filter: hue-rotate(-360deg);
   }
@@ -642,4 +677,63 @@ box-shadow: -17px 26px 58px -28px rgba(0,102,255,1);
   font-style: normal;
   font-weight: normal;
   src: local('Gobold Uplow Italic'), url('./fonts/gobold/Gobold Uplow Italic.woff') format('woff');
+}
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 150px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Menlo Regular';
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #0064ff;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
