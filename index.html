@@ -7,7 +7,13 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,8 +21,12 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/slotmachine.css">
   <script src="https://kit.fontawesome.com/e850c5b33a.js"></script>
+  <!--EASY TIMER-->
+  <script src="./node_modules/easytimer.js/dist/easytimer.min.js"></script>
+  <script>
+    var timerInstance = new easytimer.Timer();
+  </script>
   <!-- Compiled and minified CSS -->
-
   <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Karla:400,700|Roboto:300,400,700,900&display=swap"
     rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
@@ -25,61 +35,149 @@
   <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">-->
 </head>
 
-<body>
-    <i class="fas fa-bars" onmouseover="openNav()" style="position: absolute; left: 30px; top: 30px; opacity: 0.2;"></i>
+<body style="background-color: black;">
 
+  <i class="fas fa-bars" onmouseover="openNav()"
+    style="position: absolute; left: 30px; top: 30px; opacity: 0.3; color: white;"></i>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" data-toggle="modal" data-target="#exampleModal">Gameplay</a>
+    <a href="#">Deck</a>
+    <a href="#" data-toggle="modal" data-target="#exampleModalCenter">Timer</a>
+    <a href="https://www.wordsinfreedomproject.org/wp-content/uploads/2019/05/MANIFESTOgamesheet.pdf"
+      target="_blank">Gamesheet</a>
+  </div>
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+    <div class="container">
+      <div class="row">
+        <!--titulo-->
+        <div class="col-md-12">
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Rules</a>
-        <a href="#">Deck</a>
-        <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large
-            modal</button>-->
-        <a href="#">Timer</a>
-        <a href="#" target="_blank">Gamesheet</a>
-      </div>
-    
-      
-      
-      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-      <div id="main">
-      
-
-
-  <div class="container">
-    <div class="row">
-      <!--titulo-->
-      <div class="col-md-12">
-          
-        <!-- Large modal -->
-        
-
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis, massa ac rutrum tincidunt, ligula
-              quam venenatis mauris, a ultrices leo purus quis tortor. Suspendisse aliquam turpis sed mattis ornare.
-              Donec maximus mollis dolor vel dignissim. Aliquam at leo ligula. In mattis, eros eu mattis auctor, dui
-              lectus congue mauris, et dictum purus magna ac augue. Quisque et mauris sit amet libero gravida interdum
-              non et odio. Phasellus rutrum eros vel magna euismod, nec aliquam purus maximus. Phasellus faucibus ligula
-              non massa sagittis, vel aliquam tortor aliquet. Phasellus sed libero eu risus ultrices hendrerit sed et
-              justo. Curabitur gravida vehicula turpis et aliquam.
-
-              Quisque aliquam scelerisque ante, eu imperdiet turpis lobortis eget. Curabitur at ultrices enim, ut
-              vehicula urna. Ut rutrum, massa eu blandit consectetur, lectus diam vestibulum enim, vitae ornare tellus
-              diam ut eros. Aenean nec augue ut tortor tincidunt volutpat. Donec sit amet nisl nec ligula pretium
-              hendrerit. Phasellus vestibulum pulvinar quam at luctus. In viverra turpis ipsum, nec malesuada massa
-              euismod quis. In eu tortor ipsum.
+          <div id="countdownExample">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Timer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                          <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Choose...</option>
+                            <option value="1">5 minutes</option>
+                            <option value="2">10 minutes</option>
+                            <option value="3">15 minutes</option>
+                          </select>
+                        </div>
+                        <div class="col-auto my-1">
+                          <!-- <div class="custom-control custom-checkbox mr-sm-2">
+                              <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                              <label class="custom-control-label" for="customControlAutosizing" style="font-size: 18px;">Remember my preference</label>
+                              
+                            </div>-->
+                          <span style="font-size: 18px; text-align: right;">Get ready!</span>
+                        </div>
+                        <!--<div class="col-auto my-1">
+                            <button type="submit" class="btn btn-primary">Start</button>
+                          </div>-->
+                      </div>
+                    </form>
+                    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/easytimer@1.1.1/dist/easytimer.min.js"></script>
+                  <div id="chronoExample">
+                    <div class="values">00:00:00</div>
+                    <div>
+                      <button class="startButton">Start</button>
+                      <button class="pauseButton">Pause</button>
+                      <button class="stopButton">Stop</button>
+                      <button class="resetButton">Reset</button>
+                    </div>
+                  </div>
+                  <!--<div id="countdownExample">
+                    <div class="values">
+                    </div>
+                  </div>-->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary startButton" id="startButton" data-dismiss="modal">Start</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Gameplay</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" style="font-size: 20px;">
+                  MANIFESTO! is a game for individuals or groups of 2-6 players. For each round, player(s) are dealt 1
+                  random card from each of 4 categories: Provocation, Orientation, Opening, Tone. (One substitution is
+                  allowed.)<br>
+                  <ul>
+                    <li style="font-size: 20px;">Provocation gives you the topic or theme of your manifesto;</li>
+                    <li style="font-size: 20px;">Orientation tells you the type of manifesto you’re creating;</li>
+                    <li style="font-size: 20px;">Opening gives you the first words;</li>
+                    <li style="font-size: 20px;">Tone is the tone you take towards your subject or audience.</li>
+                  </ul>
+                  These are your 4 constraints: use them as a prompt to write or draw your manifesto. When you finish a
+                  round vote for the best manifesto. Caution will get you nowhere! Share photos of your #manifestogame
+                  on Twitter (@words_project) or Instagram (@wordsinfreedomproject), or better yet use them to start a
+                  revolution of your own.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div aria-live="polite" aria-atomic="true" style="position: relative;">
+            <div class="toast" style="position: absolute; top: 0; right: 0;" data-autohide="false">
+              <div class="toast-header">
+                <img src="./img/stopwatch-outlined-sportive-tool-symbol-2.png" class="rounded mr-2" alt="..."
+                  style="height: 20px;">
+                <strong class="mr-auto" style="font-size: 16px;">Timer</strong>
+                <small style="font-size: 12px; margin-left: 20px;">Ready? Set, GO!</small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="toast-body" style="font-size: 12px;">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/easytimer@1.1.1/dist/easytimer.min.js"></script>
+                <div id="basicUsage" style="font-size: 20px; text-align: center;">00:00:00 </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <h1 class="page_title">MANIFESTO! <span
+              style="font-family:Arial, Helvetica, sans-serif; font-size: 25px; letter-spacing: 1px;"> the game</span>
+          </h1>
         </div>
-        <h1 class="page_title">MANIFESTO! <span
-            style="font-family:Arial, Helvetica, sans-serif; font-size: 25px; letter-spacing: 1px;"> the game</span>
-        </h1>
       </div>
-    </div>
-    <!-- <div class="row" style="justify-content: space-around;">
+      <!-- <div class="row" style="justify-content: space-around;">
       <div class="col-md-2">Orientation
       </div>
       <div class="col-md-2">Tone
@@ -89,105 +187,104 @@
       <div class="col-md-2">Provocation
       </div>
     </div>-->
-    <div class="row" style="margin-top: 20px;">
-      <div class="col-md-3">
-        <p class="slot_title text-center">Orientation</p>
-        <div class="ring_bg_orientation">
-          <div class="container_slots_orientation ">
-            <div class="slots ">
-              <div class="rings ">
-                <div class="ring ">
-                  <div class="slot_orientation" id="0">PRINCIPLES</div>
-                  <div class="slot_orientation" id="1">CHALLENGE</div>
-                  <div class="slot_orientation" id="2">RULES</div>
-                  <div class="slot_orientation" id="3">DIAGRAM</div>
-                  <div class="slot_orientation" id="4">A/B LIST</div>
-                  <div class="slot_orientation" id="5">ALGORITHM</div>
-                  <div class="slot_orientation" id="6">VISION</div>
-                  <div class="slot_orientation" id="7">DECLARATION</div>
-                  <div class="slot_orientation" id="8">STATEMENT</div>
-                  <div class="slot_orientation" id="9">RANT</div>
+      <div class="row" style="margin-top: 20px;">
+        <div class="col-md-3">
+          <p class="slot_title text-center">Orientation</p>
+          <div class="ring_bg_orientation">
+            <div class="container_slots_orientation ">
+              <div class="slots ">
+                <div class="rings ">
+                  <div class="ring ">
+                    <div class="slot_orientation" id="0">PRINCIPLES</div>
+                    <div class="slot_orientation" id="1">CHALLENGE</div>
+                    <div class="slot_orientation" id="2">RULES</div>
+                    <div class="slot_orientation" id="3">DIAGRAM</div>
+                    <div class="slot_orientation" id="4">A/B LIST</div>
+                    <div class="slot_orientation" id="5">ALGORITHM</div>
+                    <div class="slot_orientation" id="6">VISION</div>
+                    <div class="slot_orientation" id="7">DECLARATION</div>
+                    <div class="slot_orientation" id="8">STATEMENT</div>
+                    <div class="slot_orientation" id="9">RANT</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+        <div class="col-md-3">
+          <p class="slot_title text-center">Tone</p>
+          <div class="ring_bg_tone">
+            <div class="container_slots_tone">
+              <div class="slots">
+                <div class="rings">
+                  <div class="ring">
+                    <div class="slot_tone" id="0">PLAYFUL</div>
+                    <div class="slot_tone" id="1">RADICAL</div>
+                    <div class="slot_tone" id="2">ANGRY</div>
+                    <div class="slot_tone" id="3">RIGHTEOUS</div>
+                    <div class="slot_tone" id="4">FUNNY</div>
+                    <div class="slot_tone" id="5">EXCITED</div>
+                    <div class="slot_tone" id="6">OUTRAGED</div>
+                    <div class="slot_tone" id="7">HOPEFUL</div>
+                    <div class="slot_tone" id="8">MEASURED</div>
+                    <div class="slot_tone" id="9">URGENT</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <p class="slot_title text-center">Opening</p>
+          <div class="ring_bg_opening">
+            <div class="container_slots_opening">
+              <div class="slots">
+                <div class="rings">
+                  <div class="ring">
 
-      <div class="col-md-3">
-        <p class="slot_title text-center">Tone</p>
-        <div class="ring_bg_tone">
-          <div class="container_slots_tone">
-            <div class="slots">
-              <div class="rings">
-                <div class="ring">
-                  <div class="slot_tone" id="0">PLAYFUL</div>
-                  <div class="slot_tone" id="1">RADICAL</div>
-                  <div class="slot_tone" id="2">ANGRY</div>
-                  <div class="slot_tone" id="3">RIGHTEOUS</div>
-                  <div class="slot_tone" id="4">FUNNY</div>
-                  <div class="slot_tone" id="5">EXCITED</div>
-                  <div class="slot_tone" id="6">OUTRAGED</div>
-                  <div class="slot_tone" id="7">HOPEFUL</div>
-                  <div class="slot_tone" id="8">MEASURED</div>
-                  <div class="slot_tone" id="9">URGENT</div>
+                    <div class="slot_opening" id="0">WE MUST</div>
+                    <div class="slot_opening" id="1">WE ARE</div>
+                    <div class="slot_opening" id="2">LET US</div>
+                    <div class="slot_opening" id="3">WE DECLARE</div>
+                    <div class="slot_opening" id="4">IN THE FUTURE</div>
+                    <div class="slot_opening" id="5">UNTIL NOW</div>
+                    <div class="slot_opening" id="6">IMAGINE</div>
+                    <div class="slot_opening" id="7">IN THE PAST</div>
+                    <div class="slot_opening" id="8">WE BELIEVE</div>
+                    <div class="slot_opening" id="9">COME, COMRADES</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <p class="slot_title text-center">Opening</p>
-        <div class="ring_bg_opening">
-          <div class="container_slots_opening">
-            <div class="slots">
-              <div class="rings">
-                <div class="ring">
-
-                  <div class="slot_opening" id="0">WE MUST</div>
-                  <div class="slot_opening" id="1">WE ARE</div>
-                  <div class="slot_opening" id="2">LET US</div>
-                  <div class="slot_opening" id="3">WE DECLARE</div>
-                  <div class="slot_opening" id="4">IN THE FUTURE</div>
-                  <div class="slot_opening" id="5">UNTIL NOW</div>
-                  <div class="slot_opening" id="6">IMAGINE</div>
-                  <div class="slot_opening" id="7">IN THE PAST</div>
-                  <div class="slot_opening" id="8">WE BELIEVE</div>
-                  <div class="slot_opening" id="9">COME, COMRADES</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <p class="slot_title text-center">Provocation</p>
-        <div class="ring_bg_provocation">
-          <div class="container_slots_provocation">
-            <div class="slots">
-              <div class="rings">
-                <div class="ring">
-                  <div class="slot_provocation" id="0" style="justify-content: left">ABOLISH INSTITUTIONAL HEGEMONY
-                  </div>
-                  <div class="slot_provocation" id="1" style="justify-content: left">GARBAGE IN, GARBAGE OUT</div>
-                  <div class="slot_provocation" id="2" style="justify-content: left">ASK WHY</div>
-                  <div class="slot_provocation" id="3" style="justify-content: left">BETTER FOR WHOM?</div>
-                  <div class="slot_provocation" id="4" style="justify-content: left">FEMINIST EVERYTHING</div>
-                  <div class="slot_provocation" id="5" style="justify-content: left">CLIMATE CHANGE CHANGES
-                    EVERYTHING
-                  </div>
-                  <div class="slot_provocation" id="6" style="justify-content: left">RESEARCHERS ARE NOT BYSTANDERS
-                  </div>
-                  <div class="slot_provocation" id="7" style="justify-content: left">QUEER YOUR TECH</div>
-                  <div class="slot_provocation" id="8" style="justify-content: left">DESIGN TOOLS AND INTERACTIONS
-                    PEOPLE NEED
-                  </div>
-                  <div class="slot_provocation" id="9" style="justify-content: left">CULTIVATE GENEROSITY,
-                    HOSPITALITY
-                    AND TRUST
-                  </div>
-                  <!-- <div class="slot" id="10">ABANDON THE MYTH OF UNIVERSALISM</div>
+        <div class="col-md-3">
+          <p class="slot_title text-center">Provocation</p>
+          <div class="ring_bg_provocation">
+            <div class="container_slots_provocation">
+              <div class="slots">
+                <div class="rings">
+                  <div class="ring">
+                    <div class="slot_provocation" id="0">ABOLISH INSTITUTIONAL HEGEMONY
+                    </div>
+                    <div class="slot_provocation" id="1">GARBAGE IN, GARBAGE OUT</div>
+                    <div class="slot_provocation" id="2">ASK WHY</div>
+                    <div class="slot_provocation" id="3">BETTER FOR WHOM?</div>
+                    <div class="slot_provocation" id="4">FEMINIST EVERYTHING</div>
+                    <div class="slot_provocation" id="5">CLIMATE CHANGE CHANGES
+                      EVERYTHING
+                    </div>
+                    <div class="slot_provocation" id="6">RESEARCHERS ARE NOT BYSTANDERS
+                    </div>
+                    <div class="slot_provocation" id="7">QUEER YOUR TECH</div>
+                    <div class="slot_provocation" id="8">DESIGN TOOLS AND INTERACTIONS
+                      PEOPLE NEED
+                    </div>
+                    <div class="slot_provocation" id="9">CULTIVATE GENEROSITY,
+                      HOSPITALITY
+                      AND TRUST
+                    </div>
+                    <!-- <div class="slot" id="10">ABANDON THE MYTH OF UNIVERSALISM</div>
                   <div class="slot" id="11">CHALLENGE INEQUALITY</div>
                   <div class="slot" id="12">TAKE INDUSTRY TO TASK</div>
                   <div class="slot" id="13">INCREASE ACCESS</div>
@@ -200,27 +297,27 @@
                   <div class="slot" id="20">DON'T COLONISE THE FUTURE</div>
                   <div class="slot" id="21">ARM ENDANGERED SPECIES</div>
                   <div class="slot" id="22">NEEDS BEFORE DESIRES</div>-->
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- <div class="results">
+      <!-- <div class="results">
                 <div class="result"></div>
                 <div class="result"></div>
                 <div class="result"></div>
               </div>-->
-    <div class="row">
-      <div class="col-md-12">
-        <!--botão para acionar slot machine-->
-        <div class="espaco_branco"></div>
-        <div id="wrapper">
-          <audio id="audio" src="./sound/wheel.mp3"></audio>
-          <button class="lever_button spin" onclick="play()">Pull the lever</button>
-        </div>
-        <!--<div id="chronoExample">
+      <div class="row">
+        <div class="col-md-12">
+          <!--botão para acionar slot machine-->
+          <div class="espaco_branco"></div>
+          <div id="wrapper">
+            <audio id="audio" src="./sound/wheel.mp3"></audio>
+            <button class="lever_button spin" onclick="play()">SPIN</button>
+          </div>
+          <!--<div id="chronoExample">
           <div class="values">00:00:00</div>
           <div>
             <button class="startButton">Start</button>
@@ -229,35 +326,34 @@
             <button class="resetButton">Reset</button>
           </div>
         </div>-->
+        </div>
       </div>
-    </div>
-    <div class="footer_bottom_border_holder w-100" style="height: 1px; background-color: #ececec"></div>
-    <div class="footer">
-      <div class="row">
-        <div class="d-flex justify-content-between" style="width: 100%; margin-top: 30px;">
-          <div class="col-md-3 d-flex flex-column">
-            <!--footer-->
-            <p class="titulo_footer">Words in Freedom Project</p>
-            <span class="made_footer">Made with 💖 @ ITI</span>
-            <a class="email_footer" href="mailto:team@wordsinfreedomproject.org">team@wordsinfreedomproject.org</a>
-          </div>
-          <div class="col-md-3 d-flex flex-column">
-            <a class="info_footer" href="https://www.instagram.com/wordsinfreedomproject/" target="_blank">Instagram</a>
-            <a class="info_footer" href="https://twitter.com/words_project" target="_blank">Twitter</a>
-            <a class="info_footer" href="https://www.wordsinfreedomproject.org/architecture-home/about-us/"
-              target="_blank">About us</a>
-          </div>
-          <div class="col-md-3">
-            <img class="imagens_footer float-right" src="./img/Logo-ITI-b-01-1-1.png">
-          </div>
-          <div class="col-md-3 float-right">
-            <img class="imagens_footer" src="./img/LOGO_LARSyS (2).png">
+      <div class="footer_bottom_border_holder w-100"></div>
+      <div class="footer">
+        <div class="row">
+          <div class="d-flex justify-content-between" style="width: 100%; margin-top: 30px;">
+            <div class="col-md-3 d-flex flex-column">
+              <!--footer-->
+              <p class="titulo_footer">Words in Freedom Project</p>
+              <span class="made_footer">Made with 💖 @ ITI</span>
+              <a class="email_footer" href="mailto:team@wordsinfreedomproject.org">team@wordsinfreedomproject.org</a>
+            </div>
+            <div class="col-md-3 d-flex flex-column">
+              <a class="info_footer" href="https://www.instagram.com/wordsinfreedomproject/"
+                target="_blank">Instagram</a>
+              <a class="info_footer" href="https://twitter.com/words_project" target="_blank">Twitter</a>
+              <a class="info_footer" href="https://www.wordsinfreedomproject.org/architecture-home/about-us/"
+                target="_blank">About us</a>
+            </div>
+            <div class="col-md-3">
+              <img class="imagens_footer float-right" src="./img/cropped-ITI_logo_white.png">
+            </div>
+            <div class="col-md-3 float-right">
+              <img class="imagens_footer" src="./img/LARSYS_logo_white (1).png">
+            </div>
           </div>
         </div>
       </div>
-      </div>
-
-
 
 
 
@@ -271,23 +367,17 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
       </script>
-
-      <script src="./js/lever_button_babel.js"></script>
-
-      <script src="./js/timer.js"></script>
-      <script src="./node_modules/easytimer.js/dist/easytimer.min.js"></script>
       <script>
-        var timerInstance = new easytimer.Timer();
+        $('.toast').toast('show');
       </script>
+      <script src="./js/lever_button_babel.js"></script>
+      <script src="./js/timer.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
       </script>
 
-
-
-
       <!-- Compiled and minified JavaScript -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
       <script src="js/vendor/modernizr-3.7.1.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -296,6 +386,7 @@
       </script>
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
+
 
       <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
       <script>
@@ -311,7 +402,6 @@
       <script src="https://www.google-analytics.com/analytics.js" async></script>
       <!-- Page content -->
       </main>
-
 </body>
 
 </html>

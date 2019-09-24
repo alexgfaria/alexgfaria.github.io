@@ -1,22 +1,29 @@
 var timer = new Timer();
-$('#chronoExample .startButton').click(function () {
+timer.start();
+timer.addEventListener('secondsUpdated', function (e) {
+    $('#basicUsage').html(timer.getTimeValues().toString());
+});
+
+$('#countdownExample .startButton').click(function () {
     timer.start();
 });
-$('#chronoExample .pauseButton').click(function () {
-    timer.pause();
+
+
+var timer = new Timer();
+$('#countdownExample .startButton').click(function () {
+    timer.start({
+        countdown: true,
+        startValues: {
+            seconds: 30
+        }
+    });
 });
-$('#chronoExample .stopButton').click(function () {
-    timer.stop();
-});
-$('#chronoExample .resetButton').click(function () {
-    timer.reset();
-});
+
+$('#countdownExample .values').html(timer.getTimeValues().toString());
 timer.addEventListener('secondsUpdated', function (e) {
-    $('#chronoExample .values').html(timer.getTimeValues().toString());
+    $('#countdownExample .values').html(timer.getTimeValues().toString());
 });
-timer.addEventListener('started', function (e) {
-    $('#chronoExample .values').html(timer.getTimeValues().toString());
-});
-timer.addEventListener('reset', function (e) {
-    $('#chronoExample .values').html(timer.getTimeValues().toString());
+
+timer.addEventListener('targetAchieved', function (e) {
+    $('#countdownExample .values').html('KABOOM!!');
 });

@@ -29,7 +29,7 @@ const ButtonHover = {
     }
     
     this.button.style.transform = 'translateX(' + (-x * 0.05) + 'px) rotateX(' + (-y * 0.1) + 'deg) rotateY(' + (x * 0.1) + 'deg)';
-    this.button.style.boxShadow = x * 0.2 +"px "+ y * 0.3 +"px 28px rgba(0,0,0,0.25)";
+    this.button.style.boxShadow = x * 0.2 +"px "+ y * 0.3 +"px 28px rgba(255,255,255,0.15)";
     
   }
 };

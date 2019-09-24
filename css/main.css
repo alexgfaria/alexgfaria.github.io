@@ -287,10 +287,10 @@ textarea {
   padding-bottom: 40px;
   justify-content: space-around;
   position: relative;
-  
+
 }
 
-.container_slots_orientation:before{
+.container_slots_orientation:before {
   content: "";
   position: absolute;
   top: 0;
@@ -308,7 +308,7 @@ textarea {
   padding-bottom: 40px;
   justify-content: space-around;
   position: relative;
-  
+
 }
 
 .container_slots_tone:before {
@@ -340,21 +340,36 @@ textarea {
   left: 0;
   right: 0;
   z-index: -1;
-  -webkit-box-shadow: -17px 26px 58px -28px rgba(0, 102, 255, 1);
-  -moz-box-shadow: -17px 26px 58px -28px rgba(0, 102, 255, 1);
-  box-shadow: -17px 26px 58px -28px rgba(0, 102, 255, 1);
+  -webkit-box-shadow: -6px 23px 60px -28px rgba(0, 102, 255, 1);
+  -moz-box-shadow: -6px 23px 60px -28px rgba(0, 102, 255, 1);
+  box-shadow: -6px 23px 60px -28px rgba(0, 102, 255, 1);
 }
 
 .container_slots_provocation {
   padding-top: 40px;
   padding-bottom: 40px;
   justify-content: space-around;
+  position: relative;
+}
+
+.container_slots_provocation:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-box-shadow: -6px 23px 60px -28px rgb(255, 255, 255);
+  -moz-box-shadow: -6px 23px 60px -28px rgb(255, 255, 255);
+  box-shadow: -6px 23px 60px -28px rgb(255, 255, 255);
 }
 
 .slot_title {
   font-weight: bold;
   font-family: 'Menlo Regular';
   font-size: 20px;
+  color: white;
   /*display:table;
     margin-left: auto;
     margin-right: auto;*/
@@ -369,7 +384,8 @@ textarea {
 .titulo_footer {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-  margin
+  color: white;
+  font-size: 30px;
 }
 
 .made_footer {
@@ -381,14 +397,15 @@ textarea {
 .email_footer {
   font-family: 'Menlo Regular';
   font-size: 12px;
-  color: #000;
+  color: white;
 }
 
 
 .info_footer {
   margin-top: 10px;
   font-size: 15px;
-  color: rgb(70, 70, 70);
+  /*color: rgb(70, 70, 70);*/
+  color: white;
   font-family: 'Karla', sans-serif;
   font-weight: 700;
 }
@@ -409,6 +426,8 @@ textarea {
   margin-top: 50px;
   margin-left: -50vw;
   left: 50%;
+  height: 1px;
+  background-color: #2e2e2e;
 }
 
 
@@ -455,12 +474,13 @@ textarea {
   font-family: 'Gobold Bold Italic';
   font-size: 40px;
   letter-spacing: 3px;
-  color: #0064ff;
+  color: white;
+  /*color: #0064ff;?/
   margin-top: 50px;
-  background-image: -webkit-linear-gradient(355deg, #0064ff, #00ff7f, #fb00ff);
+  /*background-image: -webkit-linear-gradient(355deg, #0064ff, #00ff7f, #fb00ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 100s infinite linear;
+  -webkit-animation: hue 100s infinite linear;*/
 }
 
 
@@ -687,26 +707,35 @@ textarea {
 
 /* The side navigation menu */
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
-  background-color: white; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 150px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  
+  background-color: black;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 150px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+
 }
 
 /* The navigation menu links */
 .sidenav a {
-  
+
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 18px;
-  color: #818181;
+  color: #c2c2c2;
   display: block;
   transition: 0.3s;
   font-family: 'Menlo Regular';
@@ -734,6 +763,11 @@ textarea {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
 }
